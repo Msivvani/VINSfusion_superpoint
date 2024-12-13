@@ -1,0 +1,11 @@
+# Add from CAD file
+parent_frame: "map"
+child_frame: "vins_odom"
+# given wrt base-frame
+x: 0.0
+y: 0.0
+z: 0.0
+# counter-clockwise is +ve
+roll: 0.0
+pitch: 0.0
+yaw: -1.57

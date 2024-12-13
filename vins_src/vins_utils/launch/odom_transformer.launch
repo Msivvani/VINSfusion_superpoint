@@ -1,0 +1,9 @@
+<launch>
+    <rosparam file="$(find vins_utils)/config/static_transform.yaml" command="load" />
+    
+    <param name="mavros_rate" type="double" value="40.0" />
+    <node name="odom_transformer_node" pkg="vins_utils" type="odom_transformer_node" output="screen">
+        
+    </node> 
+</launch>
+  
